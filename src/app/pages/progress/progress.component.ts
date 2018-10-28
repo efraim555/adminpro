@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-progress',
@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgressComponent implements OnInit {
 
-  constructor() { }
+  progreso1 = 20;
+  progreso2 = 30;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
+  // actualizar(event: number) {
+  //   console.log('Evento: ', event);
+  //   // this.progreso1 = event;
+  // }
 }
